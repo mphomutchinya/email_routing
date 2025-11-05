@@ -1,0 +1,17 @@
+﻿# Virtual environments
+venv/
+.env/
+
+# Binary and large files
+*.mp4
+*.zip
+*.rar
+*.dll
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Cache & system files
+__pycache__/
+.DS_Store
+*.log
