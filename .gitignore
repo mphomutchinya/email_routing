@@ -1,17 +1,42 @@
-﻿# Virtual environments
+﻿# Ignore Python virtual environments
 venv/
 .env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Binary and large files
-*.mp4
-*.zip
-*.rar
-*.dll
+# Ignore system files
+.DS_Store
+Thumbs.db
 
-# Jupyter checkpoints
+# Ignore build and distribution folders
+build/
+dist/
+*.egg-info/
+
+# Ignore notebooks checkpoints
 .ipynb_checkpoints/
 
-# Cache & system files
-__pycache__/
-.DS_Store
+# Ignore large data and model files
+*.safetensors
+*.pt
+*.bin
+*.h5
+*.pkl
+*.ckpt
+*.csv
+*.zip
+*.tar
+*.gz
+*.mp4
+*.mov
+archive/
+data/
+datasets/
+
+# Ignore logs and cache
 *.log
+*.tmp
+.cache/
+logs/
